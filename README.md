@@ -11,8 +11,6 @@ Any bugs report here in the topic or [HERE](https://phpbb-bg.info/forums/viewfor
 
 phpBB Version: 3.3.11
 
-[ONLINE DEMO](https://demo.phpbb-bg.info/index.php?style=37)
-
 Screenshots
 ![FarmingPro Screenshots](https://i.imgur.com/10TBbYv.png)
 ![FarmingPro Screenshots](https://i.imgur.com/Lsd8OAx.png)
