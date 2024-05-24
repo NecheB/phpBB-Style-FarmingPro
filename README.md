@@ -30,10 +30,10 @@ Installation:
 3. Customize the style according to your preferences and needs.
 
 Support:
-For questions and support regarding the FarmingPro style, you can contact us through the contact form on our website.
+For questions and support regarding the FarmingPro style, you can contact us through the [contact form](https://phpbb-bg.info/forums/memberlist.php?mode=contactadmin) on our website.
 
-Live Demo
-Feeling generous? Support me for more fun and fresh updates! 🎉 (optional): PayPal
+[Live Demo](https://demo.phpbb-bg.info/index.php?style=37)
+Feeling generous? Support me for more fun and fresh updates! 🎉 (optional): [PayPal](https://paypal.me/TechFixKENT)
 
 We hope FarmingPro makes your forum even more attractive and user-friendly!
 
