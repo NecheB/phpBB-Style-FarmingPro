@@ -254,7 +254,7 @@ fieldset.submit-buttons input {
 
 /* Main message box */
 .message-box {
-	width: 100%;
+	width: 80%;
 }
 
 .message-box textarea {
