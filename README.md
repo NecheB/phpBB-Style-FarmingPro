@@ -35,4 +35,3 @@ Feeling generous? Support me for more fun and fresh updates! 🎉 (optional): [P
 
 We hope FarmingPro makes your forum even more attractive and user-friendly!
 
-
