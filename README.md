@@ -5,11 +5,11 @@ Style Name: [FarmingPro]([https://phpbb-bg.info/forums/viewtopic.php?t=685](http
 
 Author: NecheB © [phpBB Bulgaria](https://phpbb-bg.info/).
 
-Style Description: FarmingPro is a phpBB forum style inspired by the popular game Farming Simulator. This style provides a fresh and attractive design, perfect for gaming communities related to farming simulators. phpBB Version: 3.3.11
+Style Description: FarmingPro is a phpBB forum style inspired by the popular game Farming Simulator. This style provides a fresh and attractive design, perfect for gaming communities related to farming simulators. phpBB Version: 3.3.13
 
 Any bugs report here in the topic or [HERE](https://phpbb-bg.info/forums/viewforum.php?f=80).
 
-phpBB Version: 3.3.11
+phpBB Version: 3.3.13
 
 Screenshots
 ![FarmingPro Screenshots](https://i.imgur.com/10TBbYv.png)
