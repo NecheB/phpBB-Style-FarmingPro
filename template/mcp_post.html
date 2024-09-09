@@ -77,7 +77,7 @@
 		<!-- ELSE -->
 		<p class="author"><span><i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">{MINI_POST_IMG}</span></span> {L_POSTED} {L_POST_BY_AUTHOR} {POST_AUTHOR_FULL} &raquo; {POST_DATE}</p>
 		<!-- ENDIF -->
-
+		{% if S_CAN_APPROVE %}
 		<!-- IF S_POST_UNAPPROVED -->
 			<form method="post" id="mcp_approve" action="{U_APPROVE_ACTION}">
 
@@ -101,7 +101,7 @@
 			</p>
 			</form>
 		<!-- ENDIF -->
-
+		{% endif %}
 		{% if S_POST_REPORTED and not S_MCP_REPORT %}
 			<p class="post-notice reported">
 				<i class="icon fa-exclamation fa-fw icon-red" aria-hidden="true"></i><span class="sr-only">{{ lang('TOPIC_REPORTED') }}</span> <a href="{{ U_MCP_REPORT }}"><strong>{{ lang('POST_REPORTED') }}</strong></a>

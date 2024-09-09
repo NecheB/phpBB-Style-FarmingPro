@@ -111,7 +111,7 @@
 	.responsive-show { display: block !important; }
 	.responsive-show-inline { display: inline !important; }
 	.responsive-show-inline-block { display: inline-block !important; }
-
+	.striped-border {display: none !important;}
 	
 
 	/* Content wrappers
@@ -430,6 +430,12 @@
 		float: none;
 		width: auto;
 		clear: both;
+	
+	}
+
+	.avatar-rank-container {
+		max-width: 100%;
+		
 	}
 
 	/* Polls
@@ -480,10 +486,6 @@
 	.postprofile dt, .postprofile dd.profile-rank, .search .postprofile dd {
 		display: block;
 		margin: 0;
-	}
-
-	.postprofile .has-avatar .avatar-container {
-		display:none;
 	}
 
 	.postprofile .avatar-container:after {
