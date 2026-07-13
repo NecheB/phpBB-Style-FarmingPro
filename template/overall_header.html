@@ -90,23 +90,7 @@
 		<div class="headerbar" role="banner">
 		<!-- EVENT overall_header_headerbar_before -->
 		<div id="loading"></div>
-<script src="{T_TEMPLATE_PATH}/scriptloading.js"></script>
-<script>
-//Page is loading start progress
-document.onreadystatechange = function () {
-  if (document.readyState == "interactive") {
-    NProgress.start(); //start progress bar
-  }
-}
 
-//when page is loaded stop progress 
-var everythingLoaded = setInterval(function() {
-  if (/loaded|complete/.test(document.readyState)) {
-    clearInterval(everythingLoaded);
-    setTimeout(function(){NProgress.done()},5);
-  }
-}, 10);
-</script>
 			<div class="inner">
 
 			<div id="site-description" class="site-description">

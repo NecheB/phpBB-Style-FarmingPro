@@ -9,7 +9,7 @@ Style Description: FarmingPro is a phpBB forum style inspired by the popular gam
 
 Any bugs report here in the topic or [HERE](https://phpbb-bg.info/forums/viewforum.php?f=80).
 
-phpBB Version: 3.3.15
+phpBB Version: 3.3.17
 
 Screenshots
 ![FarmingPro Screenshots](https://i.imgur.com/10TBbYv.png)

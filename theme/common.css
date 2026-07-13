@@ -1045,6 +1045,10 @@ form > p.post-notice strong {
 	background: transparent;
 }
 
+.usernamec {
+	text-align: center;
+}
+
 /* Inner box-model clearing */
 .inner:after,
 ul.linklist:after,
@@ -1319,3 +1323,4 @@ ul.linklist:after,
         background-position: 30px 0;
     }
 }
+

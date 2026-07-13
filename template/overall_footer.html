@@ -11,9 +11,8 @@
 		<p class="footer-row">
 			<span class="footer-copyright">{{ CREDIT_LINE }}</span>
 		</p>
-		<p class="footer-row">
-			<span class="footer-copyright">Style Developed By <a href="https://phpbb-bg.info/" target="_blank"><img style="margin-bottom:7px;" src="https://phpbb-bg.info/forums/styles/prosilver/theme/images/favi/favicon-16x16.png">PHPBB-BG.INFO</a></span>
-		</p>
+		<!-- INCLUDE confirm_body_line.html -->
+		
 		<!-- IF TRANSLATION_INFO -->
 		<p class="footer-row">
 			<span class="footer-copyright">{{ TRANSLATION_INFO }}</span>
@@ -113,7 +112,7 @@
 <!-- ENDIF -->
 
 <!-- EVENT overall_footer_after -->
-{% if BROKENIMAGE_ENABLE %}
+
 <script>
 $(window).on('load', function(){
   $('img').each(function() {
@@ -124,19 +123,24 @@ $(window).on('load', function(){
   });
 });
 </script>
-{% endif %}
-{% if BROKENIMAGE_ENABLE and BROKENIMAGE_HIDDEN_ENABLE %}
+
+<script src="{T_TEMPLATE_PATH}/scriptloading.js"></script>
 <script>
-(function() {
-    var allimgs = document.images;
-    for (var i = 0; i < allimgs.length; i++) {
-        allimgs[i].onerror = function() {
-            this.style.visibility = "hidden"; // Other elements aren't affected. 
-        }
-    }
-})();
+//Page is loading start progress
+document.onreadystatechange = function () {
+  if (document.readyState == "interactive") {
+    NProgress.start(); //start progress bar
+  }
+}
+
+//when page is loaded stop progress 
+var everythingLoaded = setInterval(function() {
+  if (/loaded|complete/.test(document.readyState)) {
+    clearInterval(everythingLoaded);
+    setTimeout(function(){NProgress.done()},5);
+  }
+}, 10);
 </script>
-{% endif %}
 
 <!-- INCLUDE loaderscript.html -->
 <!-- INCLUDE scroll_up_down.html -->
